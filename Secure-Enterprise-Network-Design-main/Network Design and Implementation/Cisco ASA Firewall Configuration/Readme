@@ -1,0 +1,2 @@
+The Cisco ASA firewall was configured with two security zones, the internal interface set to security level 100 and the outside interface set to security level 0. Traffic initiation from a lower security zone to a higher security zone is denied by default, while outbound traffic from the internal network is permitted. Internal hosts were granted access to ICMP and TCP HTTP services from the internet. 
+The screenshot shows the firewall configuration applied in the network.

@@ -1,0 +1,2 @@
+All server devices in the data center are statically assigned IPv4 addresses within the 10.10.1.224/27 subnet. The HQ core switch VLAN 199 interface serves as the default gateway for the server room LAN. 
+The screenshots shows the static IPv4 assignment on three of the servers.

@@ -1,0 +1,17 @@
+## Redundancy and Scalability in the Network
+To prevent a single point of failure in any network, it is best to have availability and reliability in mind during the design and implimentation.
+In this network sytem, redundancy was implemented through the use of etherchannel and also more than two core switches/routers/firewalls and multiple links between the devices i.e. between the access and multilayer switches as shown in the topology. 
+
+##	Security in the Network
+All the devices have been setup with passwords (for line console, VTY, and privilege EXEC), SSH for remote login, the Virtual Local Area Network (VLAN) provides segmentation and security. Site-to-site IPsec VPN was also implemented to create a secure tunnel for communication between the branches and the headquarters. Finally, the Cisco ASA firewall has been implemented to create different security levels between the inside and outside networks and ensure that only the inside network can initiate communications.
+
+##	Devices Choice and Naming System
+In the network, all the devices including the switches, routers, firewall, computers, printers, access points, IP Phones, tablets, and smartphones were chosen after a thorough evaluations and all were named as per the company naming conventions as shown below;
+•	Firewall- Cisco ASA 5506 firewall was used in the network and was named PERIMETER-FIREWALL
+•	Routers- 2811 Cisco Router was chosen and has been named according to the purpose i.e., CORE-ROUTER.
+•	Multilayer Switches- 3650-24PS layer-3 switches were chosen and have been named according to the purpose i.e., CORE-SW1, CORE-SW2.
+•	Access Switches- 2960 layer-2 switches were chosen and have been named according to the department: for example; MK-SW, HR-SW, FIN-SW, SNM-SW, etc.
+•	Access points- Cisco AP-PT devices were used in the network and were named according to the departments; MK-AP, HR-AP, FIN-AP etc.
+•	All the PCs have been named according to the department i.e., MK-PC, HR-PC, etc.
+
+I configured the network devices with the appropriate hostnames, banner messages, line console password, priviledge mode password, line vty password and SSH, username and password, domain name, disabling IP domain lookup, exec timeout and logging synchronous, and finally, encrypted all the configured passwords. 

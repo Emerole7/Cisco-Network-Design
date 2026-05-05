@@ -1,0 +1,5 @@
+For improved security, segmentation and easy maintenance, each department in every branch in the network is in a different VLAN and assigned to a different subnet. Several VLANs were implemented, VLANs 10, 20, 30, 40 , 50, 60, 70, 80, 90, 100, 110, and 199. 
+
+The screenshot shows a sample of VLAN configuration results in one of the switches. 
+
+N/B--Using this command on preiviledge exec mode: show vlan brief

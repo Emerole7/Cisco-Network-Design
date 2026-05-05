@@ -1,0 +1,2 @@
+Link aggregation combines multiple physical switch links into a single logical channel, enabling load sharing across links and redundancy in the event of a link failure. Up to 8 links can be aggregated into one logical link. LACP (Link Aggregation Control Protocol) was used to configure EtherChannel across the topology, eliminating bandwidth waste and preventing switching loops. 
+The screenshots shows a sample of the LACP configuration output on one of the switches.

@@ -1,0 +1,4 @@
+OSPF (Open Shortest Path First) was deployed as the dynamic routing protocol across the network to advertise routes and build routing tables for efficient traffic forwarding. OSPF was configured on the routers, core switches, and firewall to advertise their directly connected networks. 
+The screenshot shows the OSPF configuration output on the router.
+
+A default route was configured on the firewall to forward any packets that do not match an existing routing table entry to the outside network. A static default route was configured to the main-isp while a floating static route was configured using a higher administrative distance as backup to the Backup-ISP.

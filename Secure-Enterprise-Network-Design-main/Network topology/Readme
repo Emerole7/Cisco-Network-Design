@@ -1,0 +1,3 @@
+## Overview
+The CyberNet Ltd company implements its network to connect the headquarters and the three branches so that users in these branches can communicate and share network resources and services. It is headquartered in Newyork with branches in Florida, California and Canada. The network uses 3 layered network design, the core, distribution and access layers. The hierarchical model is fostered together with mesh topology that includes all nodes cooperating to distribute data amongst each other while also connecting end devices, there is star topology that includes all nodes connecting to a central device
+

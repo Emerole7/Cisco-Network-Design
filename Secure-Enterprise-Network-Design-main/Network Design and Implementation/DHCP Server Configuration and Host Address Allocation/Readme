@@ -1,0 +1,2 @@
+All host devices in the network, excluding server room devices, are dynamically assigned IPv4 addresses via a dedicated DHCP server located in the server farm. The diagrams below show the DHCP server configuration alongside evidence of automatic IPv4 assignment on the host devices.All host devices in the network, excluding server room devices, are dynamically assigned IPv4 addresses via a dedicated DHCP server located in the server farm. 
+The screenshot show the DHCP server configuration alongside evidence of automatic IPv4 assignment on the host devices.
